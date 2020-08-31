@@ -1,0 +1,31 @@
+This is a package of animated X-Plane CSL models for XSquawkBox. They were converted from Bluebell's
+package of AI models for WorldTraffic. Those, in turn, were converted from FS9 freeware models.
+
+In preparing this package, the assistance of the following people was indispensable:
+* The original authors of the FS9 models (credited below)
+* Bluebell
+* Ben Supnik
+* Keith Smith (PilotEdge)
+* Chris Collins (XSquawkBox)
+* Roland Winklmeier (swift)
+* Nicolas Taureau & Mark Roberts (X-Plane.org)
+* clumsynick
+* Nick Parshukov
+* RollnThndr
+* marpilot
+* Tompolth
+
+Below is the original credits.txt from Bluebell's package:
+
+
+ World Traffic Plugin AI Aircraft Pack_G.
+
+Aircraft are converted from FS9 freeware, all credit goes to the original modeller and repainter.
+
+The original authors:-
+Models,,,,Henry Tomkiewicz.
+Repaints,,,,Ralf Maylin and Chopinet.
+
+C150 and C172 animated versions of Bertrand Augras OpenSceneryX.
+
+Thank you for supporting X-Plane AI.
