@@ -9,7 +9,7 @@ Those can be found
 The text files are covered by the Creative Commons Zero license.
 The texture images are licensed separately and may not be redistributed.
 
-Use the [issues tab](https://github.com/oktal3700/bluebell/issues/new)
+Use the [issues tab](https://github.com/oktal3700/bluebell/issues/new/choose)
 to submit new CSL models or liveries to be added to the package.
 
 The main download link is here: http://tiny.cc/bbcsl
