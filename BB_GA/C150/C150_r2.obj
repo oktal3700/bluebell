@@ -4590,13 +4590,13 @@ ANIM_rotate 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 1.000000 libx
 ANIM_trans -0.002358 -0.172800 2.639891 -0.002358 -0.172800 2.639891 0.000000 0.000000 none
 TRIS 8295 540
 ANIM_begin
-ANIM_hide 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm1
-ANIM_show -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm1
+ANIM_hide 1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show -1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 8835 96
 ANIM_end
 ANIM_begin
-ANIM_hide -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm1
-ANIM_show 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm1
+ANIM_hide -1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show 1.0 1.0 libxplanemp/controls/thrust_ratio
 ATTR_no_cull
 TRIS 8931 48
 ANIM_end

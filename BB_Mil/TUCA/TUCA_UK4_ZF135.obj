@@ -6888,13 +6888,13 @@ ANIM_rotate 0.000000 0.000000 -1.000000 0.000000 1.000000 0.000000 1.000000 libx
 ANIM_trans 0.003616 -0.046840 3.801481 0.003616 -0.046840 3.801481 0.000000 0.000000 none
 TRIS 10947 300
 ANIM_begin
-ANIM_hide 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm1
-ANIM_show -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm1
+ANIM_hide 1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show -1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 11247 648
 ANIM_end
 ANIM_begin
-ANIM_hide -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm1
-ANIM_show 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm1
+ANIM_hide -1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show 1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 11895 144
 ANIM_end
 ANIM_end

@@ -4048,13 +4048,13 @@ ANIM_trans -3.243150 0.473360 -3.427090 -3.243150 0.473360 -3.427090 0.000000 0.
 ANIM_rotate 0.000000 0.000000 -1.000000 90.000000 180.000000 0.000000 90.000000 libxplanemp/engines/engine_rotation_angle_deg1
 ANIM_trans 3.243150 -0.473360 3.427090 3.243150 -0.473360 3.427090 0.000000 0.000000 none
 ANIM_begin
-ANIM_hide 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm1
-ANIM_show -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm1
+ANIM_hide 1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show -1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 6657 576
 ANIM_end
 ANIM_begin
-ANIM_hide -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm1
-ANIM_show 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm1
+ANIM_hide -1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show 1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 7233 252
 ATTR_no_cull
 TRIS 7485 72
@@ -4065,14 +4065,14 @@ ANIM_trans 3.237570 0.478980 -3.434300 3.237570 0.478980 -3.434300 0.000000 0.00
 ANIM_rotate 0.000000 0.000000 -1.000000 90.000000 180.000000 0.000000 90.000000 libxplanemp/engines/engine_rotation_angle_deg2
 ANIM_trans -3.237570 -0.478980 3.434300 -3.237570 -0.478980 3.434300 0.000000 0.000000 none
 ANIM_begin
-ANIM_show -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm2
-ANIM_hide 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm2
+ANIM_show -1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_hide 1.0 1.0 libxplanemp/controls/thrust_ratio
 ATTR_cull
 TRIS 7557 576
 ANIM_end
 ANIM_begin
-ANIM_show 170.000000 2000.000000 libxplanemp/engines/engine_rotation_speed_rpm2
-ANIM_hide -100.000000 170.000000 libxplanemp/engines/engine_rotation_speed_rpm2
+ANIM_show 1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_hide -1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 8133 252
 ATTR_no_cull
 TRIS 8385 72

@@ -3930,14 +3930,14 @@ ANIM_trans -0.001322 0.326100 6.633840 -0.001322 0.326100 6.633840 0.000000 0.00
 TRIS 5208 123
 ANIM_begin
 ANIM_trans 0.002947 -0.117500 -7.440784 0.002947 -0.117500 -7.440784 0.000000 0.000000 none
-ANIM_rotate 0.000000 0.256805 -0.966463 -30.000000 30.000000 -45.000000 45.000000 cjs/world_traffic/nose_gear_steering_angle
+ANIM_rotate 0.000000 0.256805 -0.966463 -30.000000 30.000000 -45.000000 45.000000 libxplanemp/controls/nws_ratio
 ANIM_trans -0.002947 0.117500 7.440784 -0.002947 0.117500 7.440784 0.000000 0.000000 none
 ANIM_begin
-ANIM_trans 0.000000 0.000000 0.000000 0.000000 -0.020668 0.115426 0.000000 1.000000 cjs/world_traffic/nose_gear_deflection
+ANIM_trans 0.000000 0.000000 0.000000 0.000000 -0.020668 0.115426 0.000000 1.000000 libxplanemp/gear/nose_gear_deflection_mtr
 TRIS 5331 36
 ANIM_begin
 ANIM_trans -0.016854 -0.017999 -7.793390 -0.016854 -0.017999 -7.793390 0.000000 0.000000 none
-ANIM_rotate -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 cjs/world_traffic/nose_gear_wheel_angle
+ANIM_rotate -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 libxplanemp/gear/tire_rotation_angle_deg
 ANIM_trans 0.016854 0.017999 7.793390 0.016854 0.017999 7.793390 0.000000 0.000000 none
 TRIS 5367 264
 ANIM_end
@@ -3967,11 +3967,11 @@ ANIM_rotate -1.000000 0.000000 0.000000 0.000000 90.000000 0.000000 1.000000 lib
 ANIM_trans -0.209540 0.335299 -0.149370 -0.209540 0.335299 -0.149370 0.000000 0.000000 none
 TRIS 5721 72
 ANIM_begin
-ANIM_trans 0.000000 0.000000 0.000000 0.000000 -0.010510 0.120129 0.000000 1.000000 cjs/world_traffic/main_gear_deflection
+ANIM_trans 0.000000 0.000000 0.000000 0.000000 -0.010510 0.120129 0.000000 1.000000 libxplanemp/gear/tire_vertical_deflection_mtr
 TRIS 5793 72
 ANIM_begin
 ANIM_trans 4.476210 -0.211789 -1.123339 4.476210 -0.211789 -1.123339 0.000000 0.000000 none
-ANIM_rotate -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 cjs/world_traffic/main_gear_wheel_angle
+ANIM_rotate -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 libxplanemp/gear/tire_rotation_angle_deg
 ANIM_trans -4.476210 0.211789 1.123339 -4.476210 0.211789 1.123339 0.000000 0.000000 none
 TRIS 5865 528
 ANIM_end
@@ -4045,16 +4045,16 @@ ANIM_end
 ANIM_end
 ANIM_begin
 ANIM_trans -3.243150 0.473360 -3.427090 -3.243150 0.473360 -3.427090 0.000000 0.000000 none
-ANIM_rotate 0.000000 0.000000 -1.000000 90.000000 180.000000 0.000000 90.000000 cjs/world_traffic/engine_rotation_angle1
+ANIM_rotate 0.000000 0.000000 -1.000000 90.000000 180.000000 0.000000 90.000000 libxplanemp/engines/engine_rotation_angle_deg1
 ANIM_trans 3.243150 -0.473360 3.427090 3.243150 -0.473360 3.427090 0.000000 0.000000 none
 ANIM_begin
-ANIM_hide 170.000000 2000.000000 cjs/world_traffic/engine_rpm1
-ANIM_show -100.000000 170.000000 cjs/world_traffic/engine_rpm1
+ANIM_hide 1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show -1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 6657 576
 ANIM_end
 ANIM_begin
-ANIM_hide -100.000000 170.000000 cjs/world_traffic/engine_rpm1
-ANIM_show 170.000000 2000.000000 cjs/world_traffic/engine_rpm1
+ANIM_hide -1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_show 1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 7233 252
 ATTR_no_cull
 TRIS 7485 72
@@ -4062,17 +4062,17 @@ ANIM_end
 ANIM_end
 ANIM_begin
 ANIM_trans 3.237570 0.478980 -3.434300 3.237570 0.478980 -3.434300 0.000000 0.000000 none
-ANIM_rotate 0.000000 0.000000 -1.000000 90.000000 180.000000 0.000000 90.000000 cjs/world_traffic/engine_rotation_angle2
+ANIM_rotate 0.000000 0.000000 -1.000000 90.000000 180.000000 0.000000 90.000000 libxplanemp/engines/engine_rotation_angle_deg2
 ANIM_trans -3.237570 -0.478980 3.434300 -3.237570 -0.478980 3.434300 0.000000 0.000000 none
 ANIM_begin
-ANIM_show -100.000000 170.000000 cjs/world_traffic/engine_rpm2
-ANIM_hide 170.000000 2000.000000 cjs/world_traffic/engine_rpm2
+ANIM_show -1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_hide 1.0 1.0 libxplanemp/controls/thrust_ratio
 ATTR_cull
 TRIS 7557 576
 ANIM_end
 ANIM_begin
-ANIM_show 170.000000 2000.000000 cjs/world_traffic/engine_rpm2
-ANIM_hide -100.000000 170.000000 cjs/world_traffic/engine_rpm2
+ANIM_show 1.0 1.0 libxplanemp/controls/thrust_ratio
+ANIM_hide -1.0 1.0 libxplanemp/controls/thrust_ratio
 TRIS 8133 252
 ATTR_no_cull
 TRIS 8385 72
