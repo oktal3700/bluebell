@@ -3,7 +3,7 @@ non-flyable aircraft models for multiplayer X-Plane plugins.
 
 It contains just the text files, not any of the texture image files.
 Those can be found
-[here](https://drive.google.com/drive/folders/0B8hGoqCV5Z5AcTM4ZWhIX2RZT2M?usp=sharing) (dds) and
+[here](https://drive.google.com/drive/folders/0B8hGoqCV5Z5AcTM4ZWhIX2RZT2M?resourcekey=0-axkxF99alUJ8uKL_24aItQ&usp=sharing) (dds) and
 [here](https://drive.google.com/drive/folders/1N61ibivrGHmbeEd4UBWk4kGAEvr6Wdfi?usp=sharing) (png).
 
 The text files are covered by the Creative Commons Zero license.
